@@ -25,7 +25,7 @@ const Home = () => {
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: `url(${heroImage})` }}
         >
-          <div className="absolute inset-0 bg-gradient-to-r from-steel/95 via-steel/80 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-r from-steel/40 via-steel/40 to-transparent" />
         </div>
         <div className="container-custom relative z-10">
           <div className="max-w-3xl animate-fade-up">
