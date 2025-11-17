@@ -190,7 +190,7 @@ export const products: Product[] = [
   },
   {
     id: "SF-202",
-    name: "MANN-FILTER Élément Hydraulique",
+    name: "Élément Hydraulique",
     category: "filtre",
     brand: "MANN-FILTER",
     reference: "HYD-PLISSE",
@@ -234,13 +234,13 @@ export const products: Product[] = [
   },
   {
     id: "SF-206",
-    name: "Filtre à air rectangulaire (éléments bleu et marron)",
+    name: "Dent de godet (éléments bleu et marron)",
     category: "filtre",
     brand: "Générique",
     reference: "AIR-RECTANGULAIRE",
     application: ["industriel", "chantier", "poids lourds"],
     description:
-      "Filtres à air industriels destinés aux moteurs lourds et engins de chantier. Leur conception multicouche garantit une filtration maximale de la poussière et des particules fines, prolongeant ainsi la durée de vie du moteur. Disponibles en différentes tailles pour diverses applications.",
+      "Pièces métalliques de différentes formes destinées aux pelles mécaniques et engins de chantier. Fabriquées pour résister aux chocs et à l’abrasion lors du creusement et du terrassement. Compatibles avec différents porte-dents et systèmes d’attache.",
     image: "/products/Filtre_Air_Rectangulaire.png",
   },
   {
@@ -319,7 +319,7 @@ export const products: Product[] = [
     reference: "GODET-PIECES-YELLOW",
     application: ["chantier", "terrassement", "carrière", "construction"],
     description:
-      "Dentitions et pièces de rechange pour godets d’engins de chantier. Fabriquées en acier haute résistance pour résister à l’usure extrême, elles assurent une durabilité accrue et une meilleure efficacité lors des opérations de creusement et de terrassement.",
+      "Dents et pièces de rechange pour godets d’engins de chantier. Fabriquées en acier haute résistance pour résister à l’usure extrême, elles assurent une durabilité accrue et une meilleure efficacité lors des opérations de creusement et de terrassement.",
     image: "/products/Pieces_Godet_Excavatrice.png",
   },
   {

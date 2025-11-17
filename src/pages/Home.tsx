@@ -10,7 +10,7 @@ import {
   Wrench,
   Truck,
 } from "lucide-react";
-import heroImage from "@/assets/hero-main.jpg";
+import heroImage from "@/assets/bannernew.jpg";
 import { products } from "@/data/products";
 import ProductCard from "@/components/ProductCard";
 
@@ -30,7 +30,7 @@ const Home = () => {
         <div className="container-custom relative z-10">
           <div className="max-w-3xl animate-fade-up">
             <h1 className="font-lora text-white mb-6 text-balance">
-              Performance, Fiabilité et Lubrifiants de Qualité avec Super Filtre Tunisie
+              Performance durable et fiabilité assurée
             </h1>
             <p className="text-xl text-white/90 mb-8 leading-relaxed max-w-2xl">
               Votre partenaire de confiance pour tous vos besoins en filtration,
@@ -196,14 +196,20 @@ const Home = () => {
           <div className="max-w-4xl mx-auto text-center animate-fade-up">
             <div className="text-6xl mb-6 text-gold">"</div>
             <blockquote className="text-2xl md:text-3xl font-lora mb-8 leading-relaxed">
-              Un partenaire fiable qui comprend nos besoins industriels. La qualité
-              des produits et le service client sont exceptionnels.
+             Un bandeau jaune vif surplombe la façade de STE SUPER FILTRE, un bandeau sur lequel vous retrouvez le nom de la société et aussi celui de Shell, parce que le distributeur que l’on vient voir, exerce également une activité dans le lubrifiant.
             </blockquote>
+             <a
+        href="https://www.rechange-tunisie.com/adel-askri-lhyper-specialiste-du-filtre-pl/"  
+        target="_blank" // <-- replace with your real URL
+        className="inline-block mb-10 text-gold hover:text-gold/80 transition font-semibold"
+      >
+        Lire plus →
+      </a>
             <div className="flex items-center justify-center space-x-4">
               <div className="w-12 h-12 bg-gold rounded-full" />
               <div className="text-left">
-                <div className="font-semibold">Mohamed Ben Ali</div>
-                <div className="text-sm text-white/70">Directeur Technique, Tunisie Motors</div>
+                <div className="font-semibold">Adel Askri</div>
+                <div className="text-sm text-white/70">Directeur Technique, Tunisie Rechange</div>
               </div>
             </div>
           </div>

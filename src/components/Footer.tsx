@@ -11,8 +11,12 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="flex items-center space-x-3 mb-4">
-              <div className="w-12 h-12 bg-accent rounded-lg flex items-center justify-center">
-                <span className="text-2xl font-bold text-white">SF</span>
+              <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center">
+               <img
+                src="/logo_SP.png"
+                alt="Logo Super Filtre"
+                className="w-10 h-10 object-contain"
+              />
               </div>
               <div>
                 <div className="font-lora font-bold text-lg leading-none">
@@ -82,7 +86,7 @@ const Footer = () => {
               <li className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-gold flex-shrink-0 mt-0.5" />
                 <span className="text-sm text-white/80">
-                  Avenue de France, 2013 Ben Arous, Tunisie
+                 24 Avenue de France, 2013 Ben Arous, Tunisie
                 </span>
               </li>
 
